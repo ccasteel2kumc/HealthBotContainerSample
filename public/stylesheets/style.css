@@ -8,7 +8,6 @@ body {
 #webchat {
   height: 100%;
   width: 100%;
-  font-family: 'Ariel, "Helvetica Neue", Helvetica, sans-serif !important;
 }
 
 #webchat[watermark="true"] [role="complementary"] ul[role="list"]::after {
@@ -18,7 +17,7 @@ body {
   right: 0;
   color: #707070;
   display: block;
-  font-family: 'Ariel, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Ariel, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 12px;
   padding: 15px 10px 10px;
   position: absolute;
@@ -31,8 +30,4 @@ body {
   left: 50%;
   right: unset;
   transform: translate(-50%, 0);
-}
-.css-1b7yvbl {
-	font-family: 'Ariel, "Helvetica Neue", Helvetica, sans-serif;
-
 }
