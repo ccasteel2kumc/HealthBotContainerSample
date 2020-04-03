@@ -8,6 +8,7 @@ body {
 #webchat {
   height: 100%;
   width: 100%;
+  font-family: 'Ariel, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #webchat[watermark="true"] [role="complementary"] ul[role="list"]::after {
