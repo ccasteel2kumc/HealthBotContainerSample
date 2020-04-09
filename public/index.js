@@ -83,7 +83,7 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        botAvatarImage: 'https://www.kansashealthsystem.com/assets/images/chatbot/Shield_white.png',
+        botAvatarImage: 'https://www.kansashealthsystem.com/assets/images/chatbot/virus.png',
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
