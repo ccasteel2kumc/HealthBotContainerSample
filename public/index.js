@@ -86,7 +86,7 @@ function initBotConversation() {
         botAvatarImage: 'https://www.kansashealthsystem.com/assets/images/chatbot/virus.png',
         // botAvatarInitials: '',
         // userAvatarImage: '',
-        hideSendBox: false, /* set to true to hide the send box from the view */
+        hideSendBox: true, /* set to true to hide the send box from the view */
         botAvatarInitials: 'Bot',
         userAvatarInitials: 'You',
         backgroundColor: '#F8F8F8'
