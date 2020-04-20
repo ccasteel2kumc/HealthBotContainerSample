@@ -1,0 +1,546 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?untpt3');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?untpt3#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?untpt3') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?untpt3') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?untpt3') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?untpt3##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-pdf-icon {
+  &:before {
+    content: $ico-pdf-icon;     
+    color: #003865;
+  }
+}
+.ico-icon-ucm-pause {
+  &:before {
+    content: $ico-icon-ucm-pause; 
+  }
+}
+.ico-icon-ucm-play {
+  &:before {
+    content: $ico-icon-ucm-play; 
+  }
+}
+.ico-Trophy {
+  &:before {
+    content: $ico-Trophy; 
+  }
+}
+.ico-uniF180 {
+  &:before {
+    content: $ico-uniF180; 
+  }
+}
+.ico-uniF177 {
+  &:before {
+    content: $ico-uniF177; 
+  }
+}
+.ico-uniF10F {
+  &:before {
+    content: $ico-uniF10F; 
+  }
+}
+.ico-uniF188 {
+  &:before {
+    content: $ico-uniF188; 
+  }
+}
+.ico-BabyRattle {
+  &:before {
+    content: $ico-BabyRattle; 
+  }
+}
+.ico-HealthBook {
+  &:before {
+    content: $ico-HealthBook; 
+  }
+}
+.ico-Search {
+  &:before {
+    content: $ico-Search; 
+  }
+}
+.ico-Shield {
+  &:before {
+    content: $ico-Shield; 
+  }
+}
+.ico-down-caret {
+  &:before {
+    content: $ico-down-caret; 
+  }
+}
+.ico-right-caret {
+  &:before {
+    content: $ico-right-caret; 
+  }
+}
+.ico-thin-close {
+  &:before {
+    content: $ico-thin-close; 
+  }
+}
+.ico-heart {
+  &:before {
+    content: $ico-heart; 
+  }
+}
+.ico-heart-o {
+  &:before {
+    content: $ico-heart-o; 
+  }
+}
+.ico-star {
+  &:before {
+    content: $ico-star; 
+  }
+}
+.ico-star-o {
+  &:before {
+    content: $ico-star-o; 
+  }
+}
+.ico-star-half {
+  &:before {
+    content: $ico-star-half; 
+  }
+}
+.ico-star-half-empty {
+  &:before {
+    content: $ico-star-half-empty; 
+  }
+}
+.ico-star-half-full {
+  &:before {
+    content: $ico-star-half-full; 
+  }
+}
+.ico-star-half-o {
+  &:before {
+    content: $ico-star-half-o; 
+  }
+}
+.ico-clock-o {
+  &:before {
+    content: $ico-clock-o; 
+  }
+}
+.ico-print {
+  &:before {
+    content: $ico-print; 
+  }
+}
+.ico-share-square-o {
+  &:before {
+    content: $ico-share-square-o; 
+  }
+}
+.ico-play {
+  &:before {
+    content: $ico-play; 
+  }
+}
+.ico-calendar {
+  &:before {
+    content: $ico-calendar; 
+  }
+}
+.ico-phone {
+  &:before {
+    content: $ico-phone; 
+  }
+}
+.ico-clipboard {
+  &:before {
+    content: $ico-clipboard; 
+  }
+}
+.ico-paste {
+  &:before {
+    content: $ico-paste; 
+  }
+}
+.ico-linkedin-square {
+  &:before {
+    content: $ico-linkedin-square; 
+  }
+}
+.ico-youtube-play {
+  &:before {
+    content: $ico-youtube-play; 
+  }
+}
+.ico-google-plus {
+  &:before {
+    content: $ico-google-plus; 
+  }
+}
+.ico-facebook {
+  &:before {
+    content: $ico-facebook; 
+  }
+}
+.ico-facebook-f {
+  &:before {
+    content: $ico-facebook-f; 
+  }
+}
+.ico-twitter {
+  &:before {
+    content: $ico-twitter; 
+  }
+}
+.ico-instagram {
+  &:before {
+    content: $ico-instagram; 
+  }
+}
+.ico-file-o {
+  &:before {
+    content: $ico-file-o; 
+  }
+}
+.ico-road {
+  &:before {
+    content: $ico-road; 
+  }
+}
+.ico-headphones {
+  &:before {
+    content: $ico-headphones; 
+  }
+}
+.ico-volume-off {
+  &:before {
+    content: $ico-volume-off; 
+  }
+}
+.ico-bold {
+  &:before {
+    content: $ico-bold; 
+  }
+}
+.ico-italic {
+  &:before {
+    content: $ico-italic; 
+  }
+}
+.ico-map-marker {
+  &:before {
+    content: $ico-map-marker; 
+  }
+}
+.ico-info-circle {
+  &:before {
+    content: $ico-info-circle; 
+  }
+}
+.ico-exclamation-triangle {
+  &:before {
+    content: $ico-exclamation-triangle; 
+  }
+}
+.ico-warning {
+  &:before {
+    content: $ico-warning; 
+  }
+}
+.ico-caret-down {
+  &:before {
+    content: $ico-caret-down; 
+  }
+}
+.ico-caret-up {
+  &:before {
+    content: $ico-caret-up; 
+  }
+}
+.ico-caret-left {
+  &:before {
+    content: $ico-caret-left; 
+  }
+}
+.ico-caret-right {
+  &:before {
+    content: $ico-caret-right; 
+  }
+}
+.ico-envelope {
+  &:before {
+    content: $ico-envelope; 
+  }
+}
+.ico-user-md {
+  &:before {
+    content: $ico-user-md; 
+  }
+}
+.ico-stethoscope {
+  &:before {
+    content: $ico-stethoscope; 
+  }
+}
+.ico-suitcase {
+  &:before {
+    content: $ico-suitcase; 
+  }
+}
+.ico-angle-left {
+  &:before {
+    content: $ico-angle-left; 
+  }
+}
+.ico-angle-right {
+  &:before {
+    content: $ico-angle-right; 
+  }
+}
+.ico-angle-up {
+  &:before {
+    content: $ico-angle-up; 
+  }
+}
+.ico-angle-down {
+  &:before {
+    content: $ico-angle-down; 
+  }
+}
+.ico-desktop {
+  &:before {
+    content: $ico-desktop; 
+  }
+}
+.ico-tablet {
+  &:before {
+    content: $ico-tablet; 
+  }
+}
+.ico-mobile {
+  &:before {
+    content: $ico-mobile; 
+  }
+}
+.ico-mobile-phone {
+  &:before {
+    content: $ico-mobile-phone; 
+  }
+}
+.ico-exclamation {
+  &:before {
+    content: $ico-exclamation; 
+  }
+}
+.ico-chevron-circle-left {
+  &:before {
+    content: $ico-chevron-circle-left; 
+  }
+}
+.ico-chevron-circle-right {
+  &:before {
+    content: $ico-chevron-circle-right; 
+  }
+}
+.ico-chevron-circle-up {
+  &:before {
+    content: $ico-chevron-circle-up; 
+  }
+}
+.ico-chevron-circle-down {
+  &:before {
+    content: $ico-chevron-circle-down; 
+  }
+}
+.ico-eur {
+  &:before {
+    content: $ico-eur; 
+  }
+}
+.ico-euro {
+  &:before {
+    content: $ico-euro; 
+  }
+}
+.ico-gbp {
+  &:before {
+    content: $ico-gbp; 
+  }
+}
+.ico-dollar {
+  &:before {
+    content: $ico-dollar; 
+  }
+}
+.ico-usd {
+  &:before {
+    content: $ico-usd; 
+  }
+}
+.ico-address-card {
+  &:before {
+    content: $ico-address-card; 
+  }
+}
+.ico-vcard {
+  &:before {
+    content: $ico-vcard; 
+  }
+}
+.ico-address-card-o {
+  &:before {
+    content: $ico-address-card-o; 
+  }
+}
+.ico-vcard-o {
+  &:before {
+    content: $ico-vcard-o; 
+  }
+}
+.ico-user-circle {
+  &:before {
+    content: $ico-user-circle; 
+  }
+}
+.ico-user-circle-o {
+  &:before {
+    content: $ico-user-circle-o; 
+  }
+}
+.ico-user-o {
+  &:before {
+    content: $ico-user-o; 
+  }
+}
+.ico-id-badge {
+  &:before {
+    content: $ico-id-badge; 
+  }
+}
+.ico-drivers-license {
+  &:before {
+    content: $ico-drivers-license; 
+  }
+}
+.ico-id-card {
+  &:before {
+    content: $ico-id-card; 
+  }
+}
+.ico-drivers-license-o {
+  &:before {
+    content: $ico-drivers-license-o; 
+  }
+}
+.ico-id-card-o {
+  &:before {
+    content: $ico-id-card-o; 
+  }
+}
+.ico-add {
+  &:before {
+    content: $ico-add; 
+  }
+}
+.ico-arrow_back {
+  &:before {
+    content: $ico-arrow_back; 
+  }
+}
+.ico-arrow_downward {
+  &:before {
+    content: $ico-arrow_downward; 
+  }
+}
+.ico-arrow_forward {
+  &:before {
+    content: $ico-arrow_forward; 
+  }
+}
+.ico-arrow_upward {
+  &:before {
+    content: $ico-arrow_upward; 
+  }
+}
+.ico-av_timer {
+  &:before {
+    content: $ico-av_timer; 
+  }
+}
+.ico-done {
+  &:before {
+    content: $ico-done; 
+  }
+}
+.ico-small-caret-up {
+  &:before {
+    content: $ico-small-caret-up; 
+  }
+}
+.ico-small-caret-down {
+  &:before {
+    content: $ico-small-caret-down; 
+  }
+}
+.ico-format_quote {
+  &:before {
+    content: $ico-format_quote; 
+  }
+}
+.ico-play_circle_outline {
+  &:before {
+    content: $ico-play_circle_outline; 
+  }
+}
+.ico-remove {
+  &:before {
+    content: $ico-remove; 
+  }
+}
+.ico-timer {
+  &:before {
+    content: $ico-timer; 
+  }
+}
+.ico-error {
+  &:before {
+    content: $ico-error; 
+  }
+}
+.ico-error_outline {
+  &:before {
+    content: $ico-error_outline; 
+  }
+}
+.ico-close {
+  &:before {
+    content: $ico-close; 
+  }
+}
+.ico-custom-menu {
+  &:before {
+    content: $ico-custom-menu; 
+  }
+}
+
