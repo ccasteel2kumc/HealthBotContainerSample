@@ -6,7 +6,7 @@ body {
 }
 
 div[style] {
-	white-space: wrap !important;
+	white-space: normal !important;
 }
 
 #webchat {
